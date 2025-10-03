@@ -1,0 +1,4 @@
+grawk
+libgrawk_tests
+*.o
+*.so
