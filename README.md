@@ -36,10 +36,11 @@ it didn't do before.
 
 The `libgrawk` library is meant to take that code, clean it up a bit and make it
 re-usable and thread-safe, and implement it into a filtering library that can
-make the functionality accessible in embedded code, as well as re-produce the
-functionality of the original executable. `ngrawk` is based on the new code, 
-`grawk` is the self-contained (not concurrent, hacky) implementation that
-inspired it.
+make the functionality accessible in embedded code.
+
+It then should also be able to re-produce the functionality of the original executable. 
+`ngrawk` is based on the new code, `grawk` is the self-contained (not concurrent, hacky) 
+implementation that inspired it.
 
 ### License: MIT
 
