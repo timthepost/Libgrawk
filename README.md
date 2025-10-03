@@ -31,9 +31,15 @@ Examples:
 
 ## Libgrawk (Micro C Library Based On Grawk)
 
-`libgrawk` is a small library that takes some of the functionality built
-around `grawk` and make it easy to access through a library. Libgrawk is 
-used in CLI tools that provide filtering and matching.
+The `grawk` program evolved over a decade of being hacked to do something else
+it didn't do before.
+
+The `libgrawk` library is meant to take that code, clean it up a bit and make it
+re-usable and thread-safe, and implement it into a filtering library that can
+make the functionality accessible in embedded code, as well as re-produce the
+functionality of the original executable. `ngrawk` is based on the new code, 
+`grawk` is the self-contained (not concurrent, hacky) implementation that
+inspired it.
 
 ### License: MIT
 
