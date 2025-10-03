@@ -1,4 +1,5 @@
 grawk
+ngrawk
 libgrawk_tests
 *.o
 *.so
